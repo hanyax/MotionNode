@@ -39,6 +39,31 @@ def load_fack_data():
 		outdata.append([x,y,z])
 	return outdata
 
+
+def load_fack_9dim_data():
+	outdata = []
+	for i in range(1000):
+		x1 = random.random()
+		y1 = random.random()
+		z1 = random.random()
+		x2 = random.random()
+		y2 = random.random()
+		z2 = random.random()
+		x3 = random.random()
+		y3 = random.random()
+		z3 = random.random()
+		outdata.append([x1,y1,z1,x2,y2,z2,x3,y3,z3])
+	return outdata
+
+
+def load_fack_9dim_data2():
+	outdata = []
+	for i in range(1000):
+		x1 = random.random()
+		outdata.append([x1,x1,x1,x1,x1,x1,x1,x1,x1])
+	return outdata
+
+
 def pca_process(data1, data2):
 	label1 = np.zeros(len(data1))
 	label2 = np.ones(len(data2))
@@ -52,27 +77,27 @@ def pca_process(data1, data2):
 
 	# apply the projection matrix, and get 2-dim data
 	newData = pca.fit_transform(concatenated_data)
-
-	fig = plt.figure(figsize = (8,8))
+	print(newData.shape)
+	fig = plt.figure()
 	plt.xlabel('Principal Component 1', fontsize = 15)
 	plt.ylabel('Principal Component 2', fontsize = 15)
-
-	for i in range(len(label1)):
-		plt.scatter(newData[i,0],newData[i,1],c='red')
-
-	for i in range(len(label1),len(label2)):
-		plt.scatter(newData[i,0],newData[i,1],c='blue')
-
+	plt.scatter(newData[0:len(data1),0],newData[0:len(data1),1],c='red',alpha=0.2)
+	plt.scatter(newData[len(data1):len(data1)+len(data2),0],newData[len(data1):len(data1)+len(data2),1],c='green',alpha=0.2)
+	
 	plt.grid()
 	plt.show()
 
 
 
 def main():
-	DATAPATH = 'data.txt'
-	data = load_data(DATAPATH)
-	data2 = load_fack_data()
-	pca_process(data, data2)
+	# DATAPATH = 'data.txt'
+	# data = load_data(DATAPATH)
+	# data2 = load_fack_data()
+
+	data1 = load_fack_9dim_data()
+	data2 = load_fack_9dim_data2()
+
+	pca_process(data1, data2)
 
 if __name__ == '__main__':
     main()
