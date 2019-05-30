@@ -139,7 +139,7 @@ def main():
 	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data.txt')
 	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data1.txt')
 	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data2.txt')
-	data4 = load_fack_6dim_data3()
+	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data3.txt')
 	data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
 	concatenated_data = np.concatenate((data1 ,data2, data3, data4, data5))

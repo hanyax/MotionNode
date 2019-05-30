@@ -11,11 +11,11 @@ void setup()
   // Open whatever port is the one you're using.
   String portName = Serial.list()[1]; //change the 0 to a 1 or 2 etc. to match your port
   myPort = new Serial(this, portName, 115200);
-  output = createWriter( "test_data2.txt" );
+  output = createWriter( "test_data3.txt" );
 }
 
 void draw() {
-  if ( myPort.available() > 0) {  // If data is available,
+  if ( myPort.available() > 5) {  // If data is available,
     val = myPort.readStringUntil('\n');         // read it and store it in val
   } 
   println(val);
