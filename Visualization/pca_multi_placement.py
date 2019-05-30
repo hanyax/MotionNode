@@ -19,7 +19,8 @@ def load_6dim_data(DATAPATH):
 	f  = open(DATAPATH, 'r')
 	data =  f.readlines()
 	for line in data:
-		if line.find('H')>-1 and line.find('R')>-1 and line.find('P')>-1 and line.find('aX')>-1 and line.find('aY')>-1 and line.find('aZ')>-1:
+
+		if len(line.split(' '))==18 and line.find('H')>-1 and line.find('R')>-1 and line.find('P')>-1 and line.find('aX')>-1 and line.find('aY')>-1 and line.find('aZ')>-1 and line.find('\r\n')>-1:
 			h = filetering(line.split(' ')[2])
 			r = filetering(line.split(' ')[5])
 			p = filetering(line.split(' ')[7])
@@ -139,11 +140,11 @@ def main():
 	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data.txt')
 	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data1.txt')
 	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data2.txt')
-	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data3.txt')
-	data5 = load_fack_6dim_data4()
+	# data4 = load_fack_6dim_data3()
+	# data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
-	concatenated_data = np.concatenate((data1 ,data2, data3, data4, data5))
-	data_num = [len(data1), len(data2), len(data3), len(data4), len(data5)]
+	concatenated_data = np.concatenate((data1 ,data2, data3))
+	data_num = [len(data1), len(data2), len(data3)]
     # run pca
 	pca_process(concatenated_data, data_num)
 
