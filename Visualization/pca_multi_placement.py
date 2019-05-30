@@ -135,8 +135,10 @@ def pca_process(data, data_num):
 
 
 def time_plot(data,fname):
-	fig = plt.figure()
+	fig = plt.figure(figsize=(10,10))
+	
 	plt.subplot(6,1,1)
+	plt.tick_params(labelsize=5)
 	plt.xlabel('Time', fontsize = 14)
 	plt.ylabel('H', fontsize = 14)
 	h = []
@@ -146,6 +148,7 @@ def time_plot(data,fname):
 	plt.grid()
 
 	plt.subplot(6,1,2)
+	plt.tick_params(labelsize=5)
 	plt.xlabel('Time', fontsize = 14)
 	plt.ylabel('R', fontsize = 14)
 	r = []
@@ -155,6 +158,7 @@ def time_plot(data,fname):
 	plt.grid()
 
 	plt.subplot(6,1,3)
+	plt.tick_params(labelsize=5)
 	plt.xlabel('Time', fontsize = 14)
 	plt.ylabel('P', fontsize = 14)
 	p = []
@@ -164,6 +168,7 @@ def time_plot(data,fname):
 	plt.grid()
 
 	plt.subplot(6,1,4)
+	plt.tick_params(labelsize=5)
 	plt.xlabel('Time', fontsize = 14)
 	plt.ylabel('Xa', fontsize = 14)
 	xa = []
@@ -173,6 +178,7 @@ def time_plot(data,fname):
 	plt.grid()
 
 	plt.subplot(6,1,5)
+	plt.tick_params(labelsize=5)
 	plt.xlabel('Time', fontsize = 14)
 	plt.ylabel('Ya', fontsize = 14)
 	ya = []
@@ -182,6 +188,7 @@ def time_plot(data,fname):
 	plt.grid()
 
 	plt.subplot(6,1,6)
+	plt.tick_params(labelsize=5)
 	plt.xlabel('Time', fontsize = 14)
 	plt.ylabel('Za', fontsize = 14)
 	za = []
@@ -189,7 +196,7 @@ def time_plot(data,fname):
 		za.append(item[5])
 	plt.plot(za)
 	plt.grid()
-		
+	plt.subplots_adjust(wspace=1, hspace=1)
 	plt.savefig(fname, dpi=300, format='png', bbox_inches='tight')
 	# plt.show()	
 
