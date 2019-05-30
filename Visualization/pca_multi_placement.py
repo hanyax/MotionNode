@@ -12,7 +12,7 @@ colors_list = ['blue', 'red', 'green', 'purple', 'magenta', 'orange', 'black']
 
 
 def filetering(input):
-	return re.sub("[^\d\.]", "", input) 
+	return re.sub("[^\d\.]", "", input)
 
 def load_6dim_data(DATAPATH):
 	outdata = []
@@ -47,8 +47,8 @@ def load_data(DATAPATH):
 
 	outdata = []
 	for i in range(len(Xdata)-2):
-		if len(Xdata[i])>1 and len(Ydata[i])>1 and len(Zdata[i])>1: 
-			outdata.append([float(Xdata[i]),float(Ydata[i]),float(Zdata[i])])	
+		if len(Xdata[i])>1 and len(Ydata[i])>1 and len(Zdata[i])>1:
+			outdata.append([float(Xdata[i]),float(Ydata[i]),float(Zdata[i])])
 
 	return outdata
 
@@ -130,15 +130,15 @@ def pca_process(data, data_num):
 	plt.grid()
 	plt.savefig('pca_projection.png', dpi=300, format='png', bbox_inches='tight')
 	plt.show()
-    
+
 
 
 def main():
 	# load data
-	datapath = '../Data_output_excel_MotionShield/Output_to_txt/test_data.txt'
-	data1 = load_6dim_data(datapath)
-	data2 = load_fack_6dim_data5()
-	data3 = load_fack_6dim_data2()
+	datapath = '../Data_output_txt_MotionShield/output_to_txt/test_data.txt'
+	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data.txt')
+	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data1.txt')
+	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data2.txt')
 	data4 = load_fack_6dim_data3()
 	data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
