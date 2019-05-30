@@ -134,6 +134,65 @@ def pca_process(data, data_num):
 
 
 
+def time_plot(data,fname):
+	fig = plt.figure()
+	plt.subplot(6,1,1)
+	plt.xlabel('Time', fontsize = 14)
+	plt.ylabel('H', fontsize = 14)
+	h = []
+	for item in data:
+		h.append(item[0])
+	plt.plot(h)
+	plt.grid()
+
+	plt.subplot(6,1,2)
+	plt.xlabel('Time', fontsize = 14)
+	plt.ylabel('R', fontsize = 14)
+	r = []
+	for item in data:
+		r.append(item[1])
+	plt.plot(r)
+	plt.grid()
+
+	plt.subplot(6,1,3)
+	plt.xlabel('Time', fontsize = 14)
+	plt.ylabel('P', fontsize = 14)
+	p = []
+	for item in data:
+		p.append(item[2])
+	plt.plot(p)
+	plt.grid()
+
+	plt.subplot(6,1,4)
+	plt.xlabel('Time', fontsize = 14)
+	plt.ylabel('Xa', fontsize = 14)
+	xa = []
+	for item in data:
+		xa.append(item[3])
+	plt.plot(xa)
+	plt.grid()
+
+	plt.subplot(6,1,5)
+	plt.xlabel('Time', fontsize = 14)
+	plt.ylabel('Ya', fontsize = 14)
+	ya = []
+	for item in data:
+		ya.append(item[4])
+	plt.plot(ya)
+	plt.grid()
+
+	plt.subplot(6,1,6)
+	plt.xlabel('Time', fontsize = 14)
+	plt.ylabel('Za', fontsize = 14)
+	za = []
+	for item in data:
+		za.append(item[5])
+	plt.plot(za)
+	plt.grid()
+		
+	plt.savefig(fname, dpi=300, format='png', bbox_inches='tight')
+	# plt.show()	
+
 def main():
 	# load data
 	datapath = '../Data_output_txt_MotionShield/output_to_txt/test_data.txt'
@@ -143,6 +202,10 @@ def main():
 	# data4 = load_fack_6dim_data3()
 	# data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
+
+	time_plot(data1, 'text_data.png')
+	time_plot(data2, 'text_data1.png')
+	time_plot(data3, 'text_data2.png')
 	concatenated_data = np.concatenate((data1 ,data2, data3))
 	data_num = [len(data1), len(data2), len(data3)]
     # run pca
