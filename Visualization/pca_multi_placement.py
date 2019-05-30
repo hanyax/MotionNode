@@ -3,8 +3,31 @@ import code
 from sklearn.decomposition import PCA
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+
 import random
+import re
 colors_list = ['blue', 'red', 'green', 'purple', 'magenta', 'orange', 'black']
+
+
+
+def filetering(input):
+	return re.sub("[^\d\.]", "", input) 
+
+def load_6dim_data(DATAPATH):
+	outdata = []
+	f  = open(DATAPATH, 'r')
+	data =  f.readlines()
+	for line in data:
+		if line.find('H')>-1 and line.find('R')>-1 and line.find('P')>-1 and line.find('aX')>-1 and line.find('aY')>-1 and line.find('aZ')>-1:
+			h = filetering(line.split(' ')[2])
+			r = filetering(line.split(' ')[5])
+			p = filetering(line.split(' ')[7])
+			xa = filetering(line.split(' ')[10])
+			ya = filetering(line.split(' ')[13])
+			za = filetering(line.split(' ')[16])
+			outdata.append([float(h),float(r),float(p),float(xa),float(ya),float(za)])
+	return outdata
 
 def load_data(DATAPATH):
 	f  = open(DATAPATH, 'r')
@@ -36,11 +59,11 @@ def load_fack_data():
 		x = random.random()
 		y = random.random()
 		z = random.random()
-		outdata.append([x,y,z])
+		outdata.append([x,y,z, x,y,z])
 	return outdata
 
 
-def load_fack_9dim_data():
+def load_fack_6dim_data():
 	outdata = []
 	for i in range(1000):
 		x1 = random.random()
@@ -49,42 +72,39 @@ def load_fack_9dim_data():
 		x2 = random.random()
 		y2 = random.random()
 		z2 = random.random()
-		x3 = random.random()
-		y3 = random.random()
-		z3 = random.random()
-		outdata.append([x1,y1,z1,x2,y2,z2,x3,y3,z3])
+		outdata.append([x1,y1,z1,x2,y2,z2])
 	return outdata
 
 
-def load_fack_9dim_data2():
+def load_fack_6dim_data2():
 	outdata = []
 	for i in range(1000):
 		x1 = random.random()
-		outdata.append([x1,x1,x1,x1,x1,x1,x1,x1,x1])
+		outdata.append([x1,x1,x1,x1,x1,x1])
 	return outdata
 
-def load_fack_9dim_data3():
-	outdata = []
-	for i in range(1000):
-		x1 = random.random()
-		y1 = random.random()
-		outdata.append([x1,x1,x1,x1,y1,y1,y1,y1,y1])
-	return outdata
-
-def load_fack_9dim_data4():
+def load_fack_6dim_data3():
 	outdata = []
 	for i in range(1000):
 		x1 = random.random()
 		y1 = random.random()
-		outdata.append([x1,y1,x1,y1,x1,y1,x1,y1,x1])
+		outdata.append([x1,x1,x1,x1,y1,y1])
 	return outdata
 
-def load_fack_9dim_data5():
+def load_fack_6dim_data4():
 	outdata = []
 	for i in range(1000):
 		x1 = random.random()
 		y1 = random.random()
-		outdata.append([y1,x1,y1,x1,y1,x1,y1,x1,y1])
+		outdata.append([x1,y1,x1,y1,x1,y1])
+	return outdata
+
+def load_fack_6dim_data5():
+	outdata = []
+	for i in range(1000):
+		x1 = random.random()
+		y1 = random.random()
+		outdata.append([y1,x1,y1,x1,y1,x1])
 	return outdata
 
 
@@ -96,6 +116,7 @@ def pca_process(data, data_num):
 	# apply the projection matrix, and get 2-dim data
 	newData = pca.fit_transform(data)
 	fig = plt.figure()
+
 	plt.xlabel('Principal Component 1', fontsize = 15)
 	plt.ylabel('Principal Component 2', fontsize = 15)
 
@@ -104,20 +125,23 @@ def pca_process(data, data_num):
 		to_idx = np.sum(data_num[:(p+1)])
 		label_name = 'placement %d'%(p)
 		plt.scatter(newData[start_idx:to_idx,0],newData[start_idx:to_idx,1],c=colors_list[p],alpha=0.2, label=label_name)
-	plt.legend()
-	
+	plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+	plt.tight_layout()
 	plt.grid()
+	plt.savefig('pca_projection.png', dpi=300, format='png', bbox_inches='tight')
 	plt.show()
     
 
 
 def main():
-	data1 = load_fack_9dim_data()
-	data2 = load_fack_9dim_data2()
-	data3 = load_fack_9dim_data3()
-	data4 = load_fack_9dim_data4()
-	data5 = load_fack_9dim_data5()
-	# concatenate data
+	# load data
+	datapath = '../Data_output_excel_MotionShield/Output_to_txt/test_data.txt'
+	data1 = load_6dim_data(datapath)
+	data2 = load_fack_6dim_data5()
+	data3 = load_fack_6dim_data2()
+	data4 = load_fack_6dim_data3()
+	data5 = load_fack_6dim_data4()
+	# concatenate all data from different placements
 	concatenated_data = np.concatenate((data1 ,data2, data3, data4, data5))
 	data_num = [len(data1), len(data2), len(data3), len(data4), len(data5)]
     # run pca
