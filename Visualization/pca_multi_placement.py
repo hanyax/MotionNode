@@ -203,9 +203,12 @@ def time_plot(data,fname):
 def main():
 	# load data
 	datapath = '../Data_output_txt_MotionShield/output_to_txt/test_data.txt'
-	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_correct_data1.txt')
-	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_correct_data2.txt')
-	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_correct_data3.txt')
+	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data1.txt')
+	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data2.txt')
+	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data3.txt')
+	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data3.txt')
+	data5 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data3.txt')
+	data6 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data3.txt')
 	# data4 = load_fack_6dim_data3()
 	# data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
@@ -213,8 +216,11 @@ def main():
 	time_plot(data1, 'text_data1.png')
 	time_plot(data2, 'text_data2.png')
 	time_plot(data3, 'text_data3.png')
-	concatenated_data = np.concatenate((data1 ,data2, data3))
-	data_num = [len(data1), len(data2), len(data3)]
+	time_plot(data4, 'text_data4.png')
+	time_plot(data5, 'text_data5.png')
+	time_plot(data6, 'text_data6.png')
+	concatenated_data = np.concatenate((data1 ,data2, data3, data4, data5, data6))
+	data_num = [len(data1), len(data2), len(data3), len(data4), len(data5), len(data6)]
     # run pca
 	pca_process(concatenated_data, data_num)
 

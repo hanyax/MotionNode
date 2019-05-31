@@ -1,0 +1,383 @@
+ H: 356.06deg  R: -   R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+: -0.13m/s2  aY: -9.68m/s2  aZ: 0.60m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+: -0.13m/s2  aY: -9.68m/s2  aZ: 0.60m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+: -0.13m/s2  aY: -9.68m/s2  aZ: 0.60m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 344.88deg  R: -1.00deg P: 86.81deg  aX: -0.29m/s2  aY: -9.69m/s2  aZ: 0.40m/s2 
+
+ H: 4.88deg  R: -0.63deg P: 82.44deg  aX: -0.10m/s2  aY: -9.66m/s2  aZ: 0.99m/s2 
+
+ H: 4.88deg  R: -0.63deg P: 82.44deg  aX: -0.10m/s2  aY: -9.66m/s2  aZ: 0.99m/s2 
+
+ H: 4.88deg  R: -0.63deg P: 82.44deg  aX: -0.10m/s2  aY: -9.66m/s2  aZ: 0.99m/s2 
+
+ H: 4.88deg  R: -0.63deg P: 82.44deg  aX: -0.10m/s2  aY: -9.66m/s2  aZ: 0.99m/s2 
