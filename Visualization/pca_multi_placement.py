@@ -136,7 +136,7 @@ def pca_process(data, data_num):
 
 def time_plot(data,fname):
 	fig = plt.figure(figsize=(10,10))
-	
+
 	plt.subplot(6,1,1)
 	plt.tick_params(labelsize=5)
 	plt.xlabel('Time', fontsize = 14)
@@ -198,21 +198,21 @@ def time_plot(data,fname):
 	plt.grid()
 	plt.subplots_adjust(wspace=1, hspace=1)
 	plt.savefig(fname, dpi=300, format='png', bbox_inches='tight')
-	# plt.show()	
+	# plt.show()
 
 def main():
 	# load data
 	datapath = '../Data_output_txt_MotionShield/output_to_txt/test_data.txt'
-	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data.txt')
-	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data1.txt')
-	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/test_data2.txt')
+	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_correct_data1.txt')
+	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_correct_data2.txt')
+	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_correct_data3.txt')
 	# data4 = load_fack_6dim_data3()
 	# data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
 
-	time_plot(data1, 'text_data.png')
-	time_plot(data2, 'text_data1.png')
-	time_plot(data3, 'text_data2.png')
+	time_plot(data1, 'text_data1.png')
+	time_plot(data2, 'text_data2.png')
+	time_plot(data3, 'text_data3.png')
 	concatenated_data = np.concatenate((data1 ,data2, data3))
 	data_num = [len(data1), len(data2), len(data3)]
     # run pca
