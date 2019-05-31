@@ -10,7 +10,7 @@ void setup()
 {
   while (!Serial);
   Serial.begin(115200);
-  Serial.println("startup!!!");
+  //Serial.println("startup!!!");
   radio.begin();
   //Serial.println("radio!!!");
   radio.openReadingPipe(1, rxAddr[1]);
@@ -32,27 +32,16 @@ void loop()
     //Serial.println("recieved");
     radio.read(&data, sizeof(data));
     //Serial.print("X");
-    Serial.print(" H: ");
-    Serial.print(data[1]);
-    Serial.print("deg ");
-    Serial.print(" R: ");
-    Serial.print(data[2]);
-    Serial.print("deg ");
-    Serial.print(" P: ");
-    Serial.print(data[3]);
-    Serial.print("deg ");
+    String dataSend = String(pipeNum);
+    dataSend += " H: " + String(data[1]) + "deg ";
+    dataSend += " R: " + String(data[2]) + "deg ";
+    dataSend += " P: " + String(data[3]) + "deg ";
 
-    Serial.print(" aX: ");
-    Serial.print(data[4]);
-    Serial.print("m/s2 ");
-    Serial.print(" aY: ");
-    Serial.print(data[5]);
-    Serial.print("m/s2 ");
-    Serial.print(" aZ: ");
-    Serial.print(data[6]);
-    Serial.print("m/s2 ");
+    dataSend += " aX: " + String(data[4]) + "m/s2 ";
+    dataSend += " aY: " + String(data[5]) + "m/s2 ";
+    dataSend += " aZ: " + String(data[6]) + "m/s2 ";
 
-    Serial.println("");
-    delay(10);
+    Serial.println(dataSend);
+    delay(5);
   }
 }
