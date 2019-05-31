@@ -1,4 +1,4 @@
-null H: 208.13deg  R: -13.13deg  P: 129.94deg  aX: -2.14m/s2  aY: -7.14m/s2  aZ: -6.33m/s2 
+ H: 208.13deg  R: -13.13deg  P: 129.94deg  aX: -2.14m/s2  aY: -7.14m/s2  aZ: -6.33m/s2 
  H: 208.13deg  R: -13.13deg  P: 129.94deg  aX: -2.00m/s2  aY: -7.20m/s2  aZ: -6.24m/s2 
  H: 208.06deg  R: -13.13deg  P: 129.81deg  aX: -1.64m/s2  aY: -7.47m/s2  aZ: -6.07m/s2 
  H: 208.06deg  R: -13.13deg  P: 129.75deg  aX: -1.80m/s2  aY: -7.39m/s2  aZ: -5.68m/s2 

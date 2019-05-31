@@ -1,5 +1,4 @@
-2m/s2  aY: -9.77m/s2  aZ: -0.85m/s2 
-null H: 286.75deg  R: -0.69deg  P: 93.88deg  aX: -0.29m/s2  aY: -9.79m/s2  aZ: -0.98m/s2 
+ H: 286.75deg  R: -0.69deg  P: 93.88deg  aX: -0.29m/s2  aY: -9.79m/s2  aZ: -0.98m/s2 
  H: 286.75deg  R: -0.75deg  P: 93.94deg  aX: -0.40m/s2  aY: -9.85m/s2  aZ: -0.84m/s2 
  H: 286.75deg  R: -0.75deg  P: 94.00deg  aX: -0.23m/s2  aY: -9.74m/s2  aZ: -0.98m/s2 
  H: 286.69deg  R: -0.75deg  P: 94.06deg  aX: -0.16m/s2  aY: -9.90m/s2  aZ: -0.87m/s2 
