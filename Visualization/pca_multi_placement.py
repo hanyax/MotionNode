@@ -19,8 +19,15 @@ def load_6dim_data(DATAPATH):
 	f  = open(DATAPATH, 'r')
 	data =  f.readlines()
 	for line in data:
-
-		if len(line.split(' '))==18 and line.find('H')>-1 and line.find('R')>-1 and line.find('P')>-1 and line.find('aX')>-1 and line.find('aY')>-1 and line.find('aZ')>-1 and line.find('\r\n')>-1:
+		print(len(line.split(' '))==18)
+		print(line.find('H')>-1)
+		print(line.find('R')>-1)
+		print(line.find('P')>-1)
+		print(line.find('aX')>-1)
+		print(line.find('aY')>-1)
+		print(line.find('aZ')>-1)
+		print(line.find('\r\n')>-1)
+		if len(line.split(' '))==18 and line.find('H')>-1 and line.find('R')>-1 and line.find('P')>-1 and line.find('aX')>-1 and line.find('aY')>-1 and line.find('aZ')>-1:
 			h = filetering(line.split(' ')[2])
 			r = filetering(line.split(' ')[5])
 			p = filetering(line.split(' ')[7])
@@ -230,12 +237,12 @@ def time_plot(data,fname):
 def main():
 	# load data
 	datapath = '../Data_output_txt_MotionShield/output_to_txt/test_data.txt'
-	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data1.txt')
-	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data2.txt')
-	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data3.txt')
-	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data1.txt')
-	data5 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data2.txt')
-	data6 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data3.txt')
+	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data1.txt')
+	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data2.txt')
+	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data3.txt')
+	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data1.txt')
+	data5 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data2.txt')
+	data6 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data3.txt')
 	# data4 = load_fack_6dim_data3()
 	# data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
