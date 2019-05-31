@@ -132,7 +132,34 @@ def pca_process(data, data_num):
 	plt.savefig('pca_projection.png', dpi=300, format='png', bbox_inches='tight')
 	plt.show()
 
+def pca_process_classification(data, data_num):
+	num_placement = len(data_num)
+	# print(data_num)
+	# training: learn a projection matrix
+	pca = PCA(n_components=2)
+	# apply the projection matrix, and get 2-dim data
+	newData = pca.fit_transform(data)
+	fig = plt.figure()
 
+	plt.xlabel('Principal Component 1', fontsize = 15)
+	plt.ylabel('Principal Component 2', fontsize = 15)
+	color_id = 0
+	for p in range(num_placement):
+		if p <=2:
+			label_name = 'Correct Posture'
+			color_id = 0
+		else:
+			label_name = 'Incorrect Posture'
+			color_id = 1
+		start_idx = np.sum(data_num[:(p+1)])-data_num[p]
+		to_idx = np.sum(data_num[:(p+1)])
+		# label_name = 'placement %d'%(p)
+		plt.scatter(newData[start_idx:to_idx,0],newData[start_idx:to_idx,1],c=colors_list[color_id],alpha=0.2, label=label_name)
+	plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
+	plt.tight_layout()
+	plt.grid()
+	plt.savefig('binary_classification.png', dpi=300, format='png', bbox_inches='tight')
+	plt.show()
 
 def time_plot(data,fname):
 	fig = plt.figure(figsize=(10,10))
@@ -206,8 +233,8 @@ def main():
 	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data1.txt')
 	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data2.txt')
 	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_correct_data3.txt')
-	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data3.txt')
-	data5 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data3.txt')
+	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data1.txt')
+	data5 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data2.txt')
 	data6 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_P1_wrong_data3.txt')
 	# data4 = load_fack_6dim_data3()
 	# data5 = load_fack_6dim_data4()
