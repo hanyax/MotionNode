@@ -187,8 +187,8 @@ def time_plot(data,fname):
 
 	plt.subplot(6,1,1)
 	plt.tick_params(labelsize=5)
-	plt.xlabel('Time', fontsize = 14)
-	plt.ylabel('H', fontsize = 14)
+	plt.xlabel('Time (sec)', fontsize = 14)
+	plt.ylabel('H (deg)', fontsize = 14)
 	h = []
 	for item in data:
 		h.append(item[0])
@@ -197,8 +197,8 @@ def time_plot(data,fname):
 
 	plt.subplot(6,1,2)
 	plt.tick_params(labelsize=5)
-	plt.xlabel('Time', fontsize = 14)
-	plt.ylabel('R', fontsize = 14)
+	plt.xlabel('Time (sec)', fontsize = 14)
+	plt.ylabel('R (deg)', fontsize = 14)
 	r = []
 	for item in data:
 		r.append(item[1])
@@ -207,8 +207,8 @@ def time_plot(data,fname):
 
 	plt.subplot(6,1,3)
 	plt.tick_params(labelsize=5)
-	plt.xlabel('Time', fontsize = 14)
-	plt.ylabel('P', fontsize = 14)
+	plt.xlabel('Time (sec)', fontsize = 14)
+	plt.ylabel('P (deg)', fontsize = 14)
 	p = []
 	for item in data:
 		p.append(item[2])
@@ -217,8 +217,8 @@ def time_plot(data,fname):
 
 	plt.subplot(6,1,4)
 	plt.tick_params(labelsize=5)
-	plt.xlabel('Time', fontsize = 14)
-	plt.ylabel('Xa', fontsize = 14)
+	plt.xlabel('Time (sec)', fontsize = 14)
+	plt.ylabel('Xa (m/s2)', fontsize = 14)
 	xa = []
 	for item in data:
 		xa.append(item[3])
@@ -227,8 +227,8 @@ def time_plot(data,fname):
 
 	plt.subplot(6,1,5)
 	plt.tick_params(labelsize=5)
-	plt.xlabel('Time', fontsize = 14)
-	plt.ylabel('Ya', fontsize = 14)
+	plt.xlabel('Time (sec)', fontsize = 14)
+	plt.ylabel('Ya (m/s2)', fontsize = 14)
 	ya = []
 	for item in data:
 		ya.append(item[4])
@@ -237,8 +237,8 @@ def time_plot(data,fname):
 
 	plt.subplot(6,1,6)
 	plt.tick_params(labelsize=5)
-	plt.xlabel('Time', fontsize = 14)
-	plt.ylabel('Za', fontsize = 14)
+	plt.xlabel('Time (sec)', fontsize = 14)
+	plt.ylabel(r'$Za (m/s^2)$', fontsize = 14)
 	za = []
 	for item in data:
 		za.append(item[5])
