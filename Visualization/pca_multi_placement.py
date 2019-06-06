@@ -18,22 +18,22 @@ def load_6dim_data(DATAPATH):
 	outdata = []
 	f  = open(DATAPATH, 'r')
 	data =  f.readlines()
+
 	for line in data:
-		print(len(line.split(' '))==18)
 		print(line.find('H')>-1)
 		print(line.find('R')>-1)
 		print(line.find('P')>-1)
 		print(line.find('aX')>-1)
 		print(line.find('aY')>-1)
 		print(line.find('aZ')>-1)
-		print(line.find('\r\n')>-1)
-		if len(line.split(' '))==18 and line.find('H')>-1 and line.find('R')>-1 and line.find('P')>-1 and line.find('aX')>-1 and line.find('aY')>-1 and line.find('aZ')>-1:
+
+		if line.find('H')>-1 and line.find('R')>-1 and line.find('P')>-1 and line.find('aX')>-1 and line.find('aY')>-1 and line.find('aZ')>-1:
 			h = filetering(line.split(' ')[2])
 			r = filetering(line.split(' ')[5])
-			p = filetering(line.split(' ')[7])
-			xa = filetering(line.split(' ')[10])
-			ya = filetering(line.split(' ')[13])
-			za = filetering(line.split(' ')[16])
+			p = filetering(line.split(' ')[8])
+			xa = filetering(line.split(' ')[11])
+			ya = filetering(line.split(' ')[14])
+			za = filetering(line.split(' ')[17])
 			outdata.append([float(h),float(r),float(p),float(xa),float(ya),float(za)])
 	return outdata
 
@@ -237,26 +237,26 @@ def time_plot(data,fname):
 def main():
 	# load data
 	datapath = '../Data_output_txt_MotionShield/output_to_txt/test_data.txt'
-	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data1.txt')
-	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data2.txt')
-	data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data3.txt')
-	data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data1.txt')
-	data5 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data2.txt')
-	data6 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data3.txt')
+	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/MultipleSquatData.txt')
+	#data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data2.txt')
+	#data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data3.txt')
+	#data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data1.txt')
+	#data5 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data2.txt')
+	#data6 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data3.txt')
 	# data4 = load_fack_6dim_data3()
 	# data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
 
-	time_plot(data1, 'text_data1.png')
-	time_plot(data2, 'text_data2.png')
-	time_plot(data3, 'text_data3.png')
-	time_plot(data4, 'text_data4.png')
-	time_plot(data5, 'text_data5.png')
-	time_plot(data6, 'text_data6.png')
-	concatenated_data = np.concatenate((data1 ,data2, data3, data4, data5, data6))
-	data_num = [len(data1), len(data2), len(data3), len(data4), len(data5), len(data6)]
+	time_plot(data1, 'muliply_squat.png')
+	#time_plot(data2, 'text_data2.png')
+	#time_plot(data3, 'text_data3.png')
+	#time_plot(data4, 'text_data4.png')
+	#time_plot(data5, 'text_data5.png')
+	#time_plot(data6, 'text_data6.png')
+	#concatenated_data = np.concatenate((data1 ,data2, data3, data4, data5, data6))
+	#data_num = [len(data1), len(data2), len(data3), len(data4), len(data5), len(data6)]
     # run pca
-	pca_process(concatenated_data, data_num)
+	#pca_process(concatenated_data, data_num)
 
 if __name__ == '__main__':
     main()
