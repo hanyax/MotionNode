@@ -168,6 +168,93 @@ def pca_process_classification(data, data_num):
 	plt.savefig('binary_classification.png', dpi=300, format='png', bbox_inches='tight')
 	plt.show()
 
+
+def prediction(input, template, good_squart):
+
+	data_dim,num_squat,max_len = template.shape
+	similarity = []
+	# code.interact(local=locals())
+	inference = np.zeros((6,max_len))
+	for i in range(len(input)):
+		for j in range(6):
+			inference[j][i] = input[i][j]
+	predicted_result = False
+	for k in range(num_squat):
+		error = 0
+		if good_squart[k]==True:
+			for i in range(max_len):
+				for j in range(6):
+					error += np.abs(inference[j][i] - template[j][k][i])/6
+			# print(error)
+			score = 1.0/(error+0.01)
+			similarity.append(score)
+			if score>50:
+				predicted_result=True
+	print(similarity)
+	print('Good posture? %s'%(predicted_result))
+
+def load_good_data(data):
+	h = []
+	r = []
+	p = []
+	xa = []
+	ya = []
+	za = []
+	gradient = []
+	for item in data:
+		h.append(item[0])
+		r.append(item[1])
+		p.append(item[2])
+		xa.append(item[3])
+		ya.append(item[4])
+		za.append(item[5])
+	
+	for i in range(len(h)-1):
+		gradient.append(h[i+1]-h[i])
+
+	index = [ n for n,i in enumerate(gradient) if i>300 ]
+	num_squat = len(index)-1
+	max_len = 0
+	for i in range(num_squat):
+		if (index[i+1]-index[i])>max_len:
+			max_len = index[i+1]-index[i]
+
+	template = np.zeros((6,num_squat,max_len))
+	good_squat = []
+	for i in range(6):
+		temp = []
+		if i ==0:
+			temp = h
+		if i ==1:
+			temp = r
+		if i ==2:
+			temp = p
+		if i ==3:
+			temp = xa
+		if i ==4:
+			temp = ya
+		if i ==5:
+			temp = za
+
+		for j in range(num_squat):
+			squat_len = index[j+1]-index[j]
+			template[i,j,0:index[j+1]-index[j]] = temp[index[j]:index[j+1]]
+			if squat_len>100:
+				good_squat.append(True)
+			else:
+				good_squat.append(False)
+	'''
+	fig = plt.figure(figsize=(10,10))
+	for i in range(num_squat):
+		if good_squat[i]==True:
+			testdata = template[-1,i,:]
+			plt.plot(testdata)
+
+	plt.show()
+	'''
+	print(index)
+	return template, good_squat
+
 def time_plot(data,fname):
 	fig = plt.figure(figsize=(10,10))
 
@@ -238,6 +325,7 @@ def main():
 	# load data
 	datapath = '../Data_output_txt_MotionShield/output_to_txt/test_data.txt'
 	data1 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/MultipleSquatData.txt')
+	data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/MultipleSquatData.txt')
 	#data2 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data2.txt')
 	#data3 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_correct_data3.txt')
 	#data4 = load_6dim_data('../Data_output_txt_MotionShield/output_to_txt/lowerleg_p1_wrong_data1.txt')
@@ -247,7 +335,10 @@ def main():
 	# data5 = load_fack_6dim_data4()
 	# concatenate all data from different placements
 
-	time_plot(data1, 'muliply_squat.png')
+	template, good_squart = load_good_data(data1)
+	prediction(data2[66:187], template, good_squart)
+
+	# time_plot(data1, 'muliply_squat.png')
 	#time_plot(data2, 'text_data2.png')
 	#time_plot(data3, 'text_data3.png')
 	#time_plot(data4, 'text_data4.png')

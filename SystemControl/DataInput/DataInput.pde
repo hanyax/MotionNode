@@ -3,8 +3,8 @@ Serial mySerial;
 PrintWriter output1;
 PrintWriter output2;
 void setup() {
-  mySerial = new Serial( this, Serial.list()[6], 115200 );
-  output1 = createWriter( "data.txt" ); 
+  mySerial = new Serial( this, Serial.list()[4], 115200 );
+  output1 = createWriter( "data4.txt" ); 
   output2 = createWriter( "mod2.txt");
   mySerial.readString();
 }
