@@ -11,7 +11,7 @@ void setup()
   // Open whatever port is the one you're using.
   String portName = Serial.list()[1]; //change the 0 to a 1 or 2 etc. to match your port
   myPort = new Serial(this, portName, 115200);
-  output = createWriter( "lowerleg_wrong_data3.txt" );
+  output = createWriter( "./Compare Set/too_wide.txt" );
 }
 
 void draw() {

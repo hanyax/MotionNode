@@ -2,7 +2,9 @@
 #include <nRF24L01.h>
 #include <RF24.h>
 
-RF24 radio(7, 8);
+RF24 radio(9, 10);
+
+const byte rxAddr[] = {00001, 00011};
 
 typedef enum {
   Idle,
@@ -21,8 +23,6 @@ float prev_data1;
 float prev_data2;
 
 boolean EnterLow;
-
-const byte rxAddr[] = {00001, 00011};
 
 void setup()
 {
@@ -52,14 +52,6 @@ void loop() {
   float data[9];
   byte pipeNum = 0; //variable to hold which reading pipe sent data
 
-  RecieveData(data, pipeNum);
-  state_contoller(data);
-  Serial.println(cur_state);
-  Serial.println(count);
-  Serial.println(bad_count);
-}
-
-void RecieveData(float* data, byte pipeNum) {
   while (radio.available(&pipeNum)) { //Check if received data
     //Serial.println("recieved");
     radio.read(&data, sizeof(data));
@@ -74,8 +66,12 @@ void RecieveData(float* data, byte pipeNum) {
     dataSend += " aZ: " + String(data[6]) + "m/s2 ";
     
     Serial.println(dataSend);
+    state_contoller(data);
     delay(5);
   }
+  Serial.println(cur_state);
+  Serial.println(count);
+  Serial.println(bad_count);
 }
 
 void state_contoller(float* data) {

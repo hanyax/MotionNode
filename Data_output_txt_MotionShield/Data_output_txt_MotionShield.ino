@@ -80,7 +80,7 @@ void loop() //This code is looped forever
     
     float data = mySensor.readEulerPitch();
     state_contoller(data);
-    Serial.println(cur_state);
+    //Serial.println(cur_state);
     //Serial.println(count);
     //Serial.println(bad_count);
   }
