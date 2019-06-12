@@ -32,7 +32,7 @@ void loop()
     //Serial.println("recieved");
     radio.read(&data, sizeof(data));
     //Serial.print("X");
-    String dataSend = String(pipeNum);
+    String dataSend; // = String(pipeNum);
     dataSend += " H: " + String(data[1]) + "deg ";
     dataSend += " R: " + String(data[2]) + "deg ";
     dataSend += " P: " + String(data[3]) + "deg ";
@@ -42,6 +42,6 @@ void loop()
     dataSend += " aZ: " + String(data[6]) + "m/s2 ";
 
     Serial.println(dataSend);
-    delay(5);
+    delay(10);
   }
 }

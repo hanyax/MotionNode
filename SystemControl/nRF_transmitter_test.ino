@@ -7,8 +7,8 @@
 #include <utility/imumaths.h>
 Adafruit_BNO055 bno = Adafruit_BNO055(55);
 
-RF24 radio(7, 8);
-const int unit = 1;
+RF24 radio(10, 9);
+const int unit = 2;
 
 const byte rxAddr[] = {00001, 00011};
 
